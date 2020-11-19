@@ -76,7 +76,7 @@ if ( ! class_exists( 'CMB2_Switch_Button' ) ) {
 				.cmb2-switch {
 				  position: relative;
 				  display: inline-block;
-				  width: 50px;
+				  width: 36px;
 				  height: 18px;
 				}
 
@@ -120,9 +120,9 @@ if ( ! class_exists( 'CMB2_Switch_Button' ) ) {
 				}
 
 				input:checked + .cmb2-slider:before {
-				  -webkit-transform: translateX(32px);
-				  -ms-transform: translateX(32px);
-				  transform: translateX(32px);
+				  -webkit-transform: translateX(18px);
+				  -ms-transform: translateX(18px);
+				  transform: translateX(18px);
 				}
 
 				/* Rounded sliders */
